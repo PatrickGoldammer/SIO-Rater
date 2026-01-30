@@ -7,7 +7,7 @@ import os
 st.set_page_config(page_title="Tech Rating System", layout="wide")
 
 # File paths
-CSV_FILE = "TECH_INFORMATION_rows.csv"
+CSV_FILE = "TECH INFORMATION_rows.csv"
 RATINGS_FILE = "tech_ratings.json"
 
 # Initialize session state
@@ -218,4 +218,5 @@ if df is not None:
 
 # Footer
 st.markdown("---")
+
 st.markdown("*Tech Rating System v1.0*")
